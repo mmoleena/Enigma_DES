@@ -33,12 +33,12 @@ The following classes have been implemented in the project:
 - The **Shade Plugin** has been used to create a runnable FAT JAR for Windows clients, allowing easy distribution and execution of the application.
 
 ## Limitations
-This project is a sample and could contain flaws. The idea behind using double encryption is to enhance security in scenarios where additional layers of protection are required. By managing two sets of keys and performing two rounds of encryption, the system becomes more complex, but it also improves resilience against attacks.
+This project is a sample and could contain flaws. 😬
 
 ### Enigma Considerations
-While the Enigma algorithm can be hardcoded into software and used in modern encryption techniques, it has limitations. Enigma's keyspace (the number of possible encryption settings) is much smaller compared to modern standards. Current encryption algorithms use 128-bit, 192-bit, or 256-bit keys, while Enigma's effective keyspace is significantly smaller, limiting its standalone use in high-security environments.
+While the Enigma algorithm can be hardcoded into software and used in modern encryption techniques, it has limitations. Enigma's keyspace (the number of possible encryption settings) is much smaller compared to modern standards. Current encryption algorithms use 128-bit, 192-bit or 256-bit keys, while Enigma's effective keyspace is significantly smaller limiting its standalone use in high-security environments.
 
 ---
 
 ## Conclusion
-This project serves as a conceptual demonstration of how combining older encryption techniques, such as Enigma, with more modern encryption standards, like DES, can provide added security. By leveraging double encryption, systems can introduce additional layers of complexity, making them more secure for data storage and transmission in cloud environments.
+This project serves as a conceptual demonstration of how combining older encryption techniques, such as Enigma with more modern encryption standards like DES, can provide added security. By leveraging double encryption, systems can introduce additional layers of complexity, making them more secure for data storage and transmission in cloud environments.
